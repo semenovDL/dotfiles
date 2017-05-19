@@ -1,0 +1,15 @@
+PROMPT_COLOR_DIR="%{$fg[cyan]%}"
+PROMPT_COLOR_GIT_BRANCH="%{$fg[yellow]%}"
+PROMPT_COLOR_GIT_DIRTY="%{$fg[red]%}"
+PROMPT_COLOR_CHAR="%{$fg[green]%}"
+PROMPT_COLOR_RESET="%{$reset_color%}"
+
+ZSH_THEME_GIT_PROMPT_PREFIX=" - $PROMPT_COLOR_GIT_BRANCH"
+ZSH_THEME_GIT_PROMPT_SUFFIX="$PROMPT_COLOR_RESET"
+ZSH_THEME_GIT_PROMPT_DIRTY="$PROMPT_COLOR_GIT_DIRTY!$PROMPT_COLOR_RESET"
+
+current_directory() {
+  echo $(basename $(pwd) | sed -e "s,^$(whoami),~,")
+}
+
+PROMPT='$PROMPT_COLOR_DIR$(current_directory)$PROMPT_COLOR_RESET$(git_prompt_info) $PROMPT_COLOR_CHAR$>$PROMPT_COLOR_RESET'
