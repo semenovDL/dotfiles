@@ -1,0 +1,19 @@
+[{
+    "key": "ctrl+`",
+    "command": "terminalTabs.createTerminal"
+  },
+  {
+    "key": "cmd+k",
+    "command": "workbench.action.terminal.clear"
+  },
+  {
+    "key": "cmd+left",
+    "command": "workbench.action.terminal.focusPrevious",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+right",
+    "command": "workbench.action.terminal.focusNext",
+    "when": "terminalFocus"
+  }
+]

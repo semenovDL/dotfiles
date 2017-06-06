@@ -1,0 +1,49 @@
+recommended:
+  - DavidAnson.vscode-markdownlint
+  - EditorConfig.EditorConfig
+  - HookyQR.beautify
+  - PKief.material-icon-theme
+  - PeterJausovec.vscode-docker
+  - RoscoP.ActiveFileInStatusBar
+  - Tyriar.terminal-tabs
+  - Vans.haskero
+  # - abadi199.elm-format
+  - abusaidm.html-snippets
+  - akamud.vscode-javascript-snippet-pack
+  - bobjoy.vscode-browser-plus
+  - christian-kohler.npm-intellisense
+  - christian-kohler.path-intellisense
+  - cssho.vscode-svgviewer
+  - dbaeumer.vscode-eslint
+  - donjayamanne.githistory
+  - ecmel.vscode-html-css
+  - eg2.vscode-npm-script
+  - emmanuelbeziat.vscode-great-icons
+  - felipecaputo.git-project-manager
+  - formulahendry.auto-close-tag
+  - formulahendry.auto-rename-tag
+  - formulahendry.code-runner
+  - hnw.vscode-auto-open-markdown-preview
+  - hollowtree.vue-snippets
+  - hoovercj.haskell-linter
+  - hoovercj.vscode-ghc-mod
+  - humao.rest-client
+  - jcanero.hoogle-vscode
+  - jcbuisson.vue
+  - joshjg.vscode-credo
+  - justusadam.language-haskell
+  - lukehoban.Go
+  - mjmcloug.vscode-elixir
+  - mkaufman.HTMLHint
+  # - ms-vscode.atom-keybindings
+  # - ms-vscode.sublime-keybindings
+  # - msjsdiag.debugger-for-chrome
+  - octref.vetur
+  - rebornix.Ruby
+  - robinbentley.sass-indented
+  # - sbrink.elm
+  - sianglim.slim
+  - sleistner.vscode-fileutils
+  - waderyan.gitblame
+  - xabikos.JavaScriptSnippets
+  # - xabikos.ReactSnippets
