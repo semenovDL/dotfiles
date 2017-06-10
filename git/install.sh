@@ -2,3 +2,5 @@
 
 ln -sf $DOTFILES/git/gitconfig ~/.gitconfig
 ln -sf $DOTFILES/git/gitconfig.user ~/.gitconfig.user
+
+ruby $DOTFILES/git/clone.rb

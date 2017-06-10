@@ -6,8 +6,10 @@ tap 'caskroom/versions'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
 
-# Git
+# Git and GitHub
 brew 'git'
+brew 'diff-so-fancy'
+brew 'hub'
 
 # ZSH
 brew 'zsh'
@@ -51,7 +53,10 @@ brew 'rbenv'
 
 # Other usefull tools
 brew 'fzf'
+brew 'httpie'
 brew 'pv'
+brew 'the_silver_searcher'
+brew 'youtube-dl'
 brew 'vim', args: ['with-override-system-vi']
 brew 'watch'
 
@@ -69,6 +74,7 @@ cask 'qlvideo'
 cask 'font-firacode-nerd-font'
 
 # Apps
+cask 'aerial'
 cask 'alfred'
 cask 'caffeine'
 cask 'dash'
