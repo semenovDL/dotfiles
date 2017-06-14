@@ -1,0 +1,434 @@
+root_path: ~/p
+nodes:
+  - path: e # Education
+    update: true
+  - path: e/a # Awesome lists
+    repos:
+      - gh: sindresorhus/awesome
+      - gh: bayandin/awesome-awesomeness
+      - gh: webpro/awesome-dotfiles
+      - gh: h4cc/awesome-elixir
+      - gh: avelino/awesome-go
+      - gh: MaximAbramchuck/awesome-interview-questions
+      - gh: josephmisiti/awesome-machine-learning
+      - gh: ekremkaraca/awesome-rails
+      - gh: hothero/awesome-rails-gem
+      - gh: hothero/awesome-rails-gem
+      - gh: viatsko/awesome-vscode
+  - path: e/b # Books
+    repos:
+      - gh: philipwalton/solved-by-flexbox
+      - gh: kennethwang14/TypographyHandbook
+      - gh: getify/You-Dont-Know-JS
+      - gh: denisshevchenko/ohaskell.guide
+  - path: e/k # Koans
+    update: false
+    organization: semenovDL
+    repos:
+      - gh: 30-days-of-elixir
+      - gh: elixir-koans
+      - gh: elm-koans
+      - gh: fp-course
+      - gh: GildedRose-Refactoring-Kata
+      - gh: go-koans
+      - gh: HaskellKoans
+      - gh: javascript-koans
+      - gh: lisp-koans
+      - gh: reactjs_koans
+      - gh: ReactNativeKatas
+      - gh: Tennis-Refactoring-Kata
+  - path: e/sg # Style Guides
+    repos:
+      - gh: christopheradams/elixir_style_guide
+      - gh: NoRedInk/elm-style-guide
+      - gh: airbnb/javascript
+      - gh: bbatsov/ruby-style-guide
+      - gh: bbatsov/rails-style-guide
+  - path: l # Language-specific projects
+    update: true
+  - path: l/elm
+    repos:
+      - gh: debois/elm-mdl
+      - gh: ohanhi/elm-native-ui
+      - gh: mdgriffith/elm-style-animation
+      - gh: elm-community/elm-webpack-starter
+      - gh: mbylstra/html-to-elm
+      - gh: krisajenkins/remotedata
+  - path: l/ex
+    repos:
+      - gh: wojtekmach/acme_bank
+      - gh: zackehh/cachex
+      - gh: rrrene/credo
+      - gh: boldpoker/edeliver
+      - gh: elixir-lang/elixir
+      - gh: smpallen99/ex_admin
+      - gh: elixir-lang/ex_doc
+      - gh: thoughtbot/ex_machina
+      - gh: igas/faker
+      - gh: ueberauth/guardian
+      - gh: elixir-maru/maru
+      - gh: lpil/mix-test.watch
+      - gh: phoenixframework/phoenix
+      - gh: slime-lang/phoenix_slime
+      - gh: slime-lang/slime
+  - path: l/hs
+    repos:
+      - gh: elm-lang/elm-compiler
+      - gh: avh4/elm-format
+  - path: l/rb
+  - path: l/rb/admin
+    repos:
+      - gh: activeadmin/activeadmin
+      - gh: activeadmin/arbre
+      - gh: activeadmin/inherited_resources
+      - gh: sferik/rails_admin
+  - path: l/rb/api
+    repos:
+      - gh: ruby-grape/grape
+      - gh: ruby-grape/grape-entity
+      - gh: ruby-grape/grape-swagger
+      - gh: trailblazer/roar
+      - gh: trailblazer/roar-jsonapi
+  - path: l/rb/attachments
+    repos:
+      - gh: carrierwaveuploader/carrierwave
+      - gh: thoughtbot/paperclip
+      - gh: janko-m/shrine
+  - path: l/rb/audit
+    repos:
+      - gh: collectiveidea/audited
+      - gh: palkan/logidze
+      - gh: airblade/paper_trail
+  - path: l/rb/authentication
+    repos:
+      - gh: plataformatec/devise
+      - gh: tigrish/devise-i18n
+      - gh: jeremyevans/rodauth
+  - path: l/rb/authorization
+    repos:
+      - gh: CanCanCommunity/cancancan
+      - gh: elabs/pundit
+  - path: l/rb/brew
+    repos:
+      - gh: Homebrew/brew
+      - gh: Homebrew/homebrew-bundle
+      - gh: caskroom/homebrew-cask
+      - gh: Homebrew/homebrew-core
+  - path: l/rb/charts
+    repos:
+      - gh: ankane/chartkick
+  - path: l/rb/cli
+    repos:
+      - gh: erikhuda/thor
+  - path: l/rb/code_quality
+    repos:
+      - gh: codeclimate/codeclimate
+      - gh: seattlerb/flog
+      - gh: troessner/reek
+      - gh: bbatsov/rubocop
+      - gh: colszowka/simplecov
+  - path: l/rb/collections
+    repos:
+      - gh: intridea/hashie
+  - path: l/rb/config
+    repos:
+      - gh: railsconfig/config
+      - gh: bkeepers/dotenv
+      - gh: laserlemon/figaro
+      - gh: huacnlee/rails-settings-cached
+  - path: l/rb/data_mappers
+    organization: rom-rb
+    repos:
+      - gh: jeremyevans/sequel
+      - gh: rom
+      - gh: rom-repository
+      - gh: rom-sql
+      - gh: rom-rb.org
+      - gh: rom-rails
+  - path: l/rb/debug
+    repos:
+      - gh: awesome-print/awesome_print
+      - gh: deivid-rodriguez/byebug
+      - gh: pry/pry
+      - gh: deivid-rodriguez/pry-byebug
+      - gh: rails/web-console
+  - path: l/rb/decorators
+    repos:
+      - gh: apotonick/disposable
+      - gh: drapergem/draper
+  - path: l/rb/dev_server
+    repos:
+      - gh: ddollar/foreman
+      - gh: guard/guard
+      - gh: guard/guard-bundler
+      - gh: guard/guard-livereload
+      - gh: ranmocy/guard-rails
+      - gh: guard/guard-rspec
+      - gh: yujinakayama/guard-rubocop
+      - gh: mknapik/guard-spring
+      - gh: guard/guard-zeus
+      - gh: rails/spring
+      - gh: Codaisseur/terminal-notifier-guard
+      - gh: burke/zeus
+  - path: l/rb/documentation
+    repos:
+      - gh: ctran/annotate_models
+      - gh: voormedia/rails-erd
+      - gh: lsegal/yard
+  - path: l/rb/dry-rb
+    organization: dry-rb
+    repos:
+      - gh: dry-auto_inject
+      - gh: dry-configurable
+      - gh: dry-container
+      - gh: dry-core
+      - gh: dry-equalizer
+      - gh: dry-initializer
+      - gh: dry-logic
+      - gh: dry-matcher
+      - gh: dry-monads
+      - gh: dry-monitor
+      - gh: dry-pipeline
+      - gh: dry-rb.org
+      - gh: dry-schema
+      - gh: dry-struct
+      - gh: dry-system
+      - gh: dry-system-rails
+      - gh: dry-transaction
+      - gh: dry-types
+      - gh: dry-validation
+      - gh: dry-web
+      - gh: dry-web-blog
+      - gh: dry-web-roda
+  - path: l/rb/dsl
+    repos:
+      - gh: apotonick/declarative
+      - gh: apotonick/declarative-builder
+      - gh: apotonick/declarative-option
+      - gh: apotonick/uber
+  - path: l/rb/form_builders
+    repos:
+      - gh: justinfrench/formtastic
+      - gh: trailblazer/formular
+      - gh: plataformatec/simple_form
+  - path: l/rb/form_objects
+    repos:
+      - gh: trailblazer/reform
+      - gh: trailblazer/reform-rails
+  - path: l/rb/frontend
+    repos:
+      - gh: DavyJonesLocker/client_side_validations
+      - gh: DavyJonesLocker/client_side_validations-simple_form
+      - gh: gazay/gon
+      - gh: rails/jquery-rails
+      - gh: rails/jquery-ujs
+      - gh: rails/sprockets
+      - gh: rails/sprockets-rails
+      - gh: rails/webpacker
+  - path: l/rb/gems
+    repos:
+      - gh: bundler/bundler
+      - gh: bundler/gemstash
+  - path: l/rb/hanami
+    organization: hanami
+    repos:
+      - gh: assets
+      - gh: controller
+      - gh: hanami
+      - gh: hanami.github.io
+      - gh: helpers
+      - gh: mailer
+      - gh: model
+      - gh: router
+      - gh: utils
+      - gh: validations
+      - gh: view
+  - path: l/rb/jobs
+    repos:
+      - gh: jmettraux/rufus-scheduler
+      - gh: mperham/sidekiq
+      - gh: ondrejbartas/sidekiq-cron
+      - gh: mhenrixon/sidekiq-unique-jobs
+  - path: l/rb/logging
+    repos:
+      - gh: fluent/fluentd
+      - gh: roidrage/lograge
+      - gh: elastic/logstash
+      - gh: evrone/quiet_assets
+  - path: l/rb/lists
+    repos:
+      - gh: swanandp/acts_as_list
+  - path: l/rb/markdown
+    repos:
+      - gh: gettalong/kramdown
+  - path: l/rb/oauth
+    repos:
+      - gh: doorkeeper-gem/doorkeeper
+      - gh: pelle/oauth
+      - gh: intridea/oauth2
+      - gh: omniauth/omniauth
+      - gh: mkdynamic/omniauth-facebook
+      - gh: intridea/omniauth-github
+      - gh: zquestz/omniauth-google-oauth2
+      - gh: skorks/omniauth-linkedin
+      - gh: intridea/omniauth-oauth2
+      - gh: arunagw/omniauth-twitter
+      - gh: mamantoha/omniauth-vkontakte
+      - gh: jwt/ruby-jwt
+  - path: l/rb/pagination
+    repos:
+      - gh: kaminari/kaminari
+      - gh: mislav/will_paginate
+  - path: l/rb/performance
+    repos:
+      - gh: flyerhzm/bullet
+      - gh: nevir/Bumbler
+      - gh: palkan/n_plus_one_control
+  - path: l/rb/pdf
+    repos:
+      - gh: prawnpdf/prawn
+      - gh: mileszs/wicked_pdf
+      - gh: zakird/wkhtmltopdf_binary_gem
+  - path: l/rb/rails
+    repos:
+      - gh: rails/rails
+      - gh: rails/strong_parameters
+  - path: l/rb/redis
+    repos:
+      - gh: kenn/redis-mutex
+      - gh: redis-store/redis-rails
+      - gh: redis/redis-rb
+  - path: l/rb/routers
+    repos:
+      - gh: jeremyevans/roda
+      - gh: sinatra/sinatra
+  - path: l/rb/ruby
+    repos:
+      - gh: jruby/jruby
+      - gh: ruby/ruby
+      - gh: graalvm/truffleruby
+  - path: l/rb/sass
+    repos:
+      - gh: twbs/bootstrap-sass
+      - gh: sass/sass
+      - gh: rails/sass-rails
+  - path: l/rb/search
+    repos:
+      - gh: activerecord-hackery/ransack
+      - gh: ankane/searchkick
+  - path: l/rb/security
+    repos:
+      - gh: presidentbeef/brakeman
+      - gh: rubysec/bundler-audit
+  - path: l/rb/serializators
+    repos:
+      - gh: nesquena/rabl
+      - gh: trailblazer/representable
+  - path: l/rb/service_objects
+    repos:
+      - gh: collectiveidea/interactor
+  - path: l/rb/state_machine
+    repos:
+      - gh: aasm/aasm
+  - path: l/rb/tags
+    repos:
+      - gh: mbleigh/acts-as-taggable-on
+  - path: l/rb/templates
+    repos:
+      - gh: slim-template/slim
+      - gh: slim-template/slim-rails
+      - gh: rtomayko/tilt
+  - path: l/rb/test
+    repos:
+      - gh: teamcapybara/capybara
+      - gh: thoughtbot/capybara-webkit
+      - gh: thoughtbot/factory_girl
+      - gh: stympy/faker
+      - gh: seattlerb/minitest
+      - gh: teampoltergeist/poltergeist
+      - gh: rspec/rspec
+      - gh: rspec/rspec-rails
+      - gh: travisjeffery/timecop
+  - path: l/rb/trailblazer
+    organization: trailblazer
+    repos:
+      - gh: trailblazer
+      - gh: trailblazer-cells
+      - gh: trailblazer-circuit
+      - gh: trailblazer-compat
+      - gh: trailblazer-loader
+      - gh: trailblazer-operation
+      - gh: trailblazer-rails
+      - gh: trailblazer.github.io
+  - path: l/rb/tree
+    repos:
+      - gh: stefankroes/ancestry
+      - gh: mceachen/closure_tree
+  - path: l/rb/view_model
+    repos:
+      - gh: trailblazer/cells
+      - gh: trailblazer/cells-rails
+      - gh: trailblazer/cells-slim
+      - gh: dry-rb/dry-view
+  - path: l/rb/web_server
+    repos:
+      - gh: puma/puma
+      - gh: rack/rack
+      - gh: macournoyer/thin
+  - path: l/rb/xls
+    repos:
+      - gh: randym/axlsx
+  - path: oss
+    organization: semenovDL
+    repos:
+      - gh: dotfiles
+      - gh: gandy_dancer
+      - gh: mal
+      - gh: semenovDL.github.io
+      - gh: service_objects
+      - gh: svelte-webpack-starter
+      - gh: umbrella_webpack_elm_starter
+  - path: r # Random
+    repos:
+      - gh: jayphelps/git-blame-someone-else
+      - gh: NARKOZ/hacker-scripts
+  - path: sb # Sandbox
+  - path: t # Tools
+    update: true
+  - path: t/blogs
+    repos:
+      - gh: jekyll/jekyll
+  - path: t/devops
+    repos:
+      - gh: ansible/ansible
+      - gh: capistrano/capistrano
+      - gh: chef/chef
+      - gh: gitlabhq/gitlabhq
+      - gh: mina-deploy/mina
+      - gh: moby/moby
+      - gh: puppetlabs/puppet
+      - gh: rkt/rkt
+  - path: t/df # Dotfiles
+    repos:
+      - gh: holman/dotfiles
+        path: holman
+      - gh: joeyhoer/starter
+        path: joeyhoer
+      - gh: mathiasbynens/dotfiles
+        path: mathiasbynens
+      - gh: skwp/dotfiles
+        path: skwp
+      - gh: thoughtbot/dotfiles
+        path: thoughtbot
+  - path: t/vim # Vim
+    repos:
+      - gh: neovim/neovim
+  - path: w # Work
+    organization: GeekBrainsTeam
+    repos:
+      - gh: geekbrains
+        path: gb
+      - gh: gb-mobile-app
+        path: gbm
+      - gh: geekbrains.wiki
+        path: gbw

@@ -1,16 +1,31 @@
 #!/usr/bin/env bash
 
-export DOTFILES=$HOME/.dotfiles
+# Ask for the administrator password upfront
+sudo -v
 
-if [ ! -d "$DOTFILES" ]; then
-  echo "Installing dotfiles for the first time"
-  git clone --depth=1 https://github.com/semenovDL/dotfiles.git "$DOTFILES"
-else
-  echo "Dotfiles is already installed"
-fi
+# Keep-alive: update existing `sudo` time stamp until script has finished
+while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-echo "Update dotfiles"
-(cd $DOTFILES && git pull --rebase)
+# Install all available updates
+sudo softwareupdate -ia
 
-echo "Run installer"
-source $DOTFILES/bin/dot
+INSTALLERS=(
+  xcode # XCode __must__ be installed before Homebrew
+  homebrew # Homebrew __must__ be installed before other tools
+  ruby
+  haskell
+  git
+  zsh
+  vscode
+)
+
+# Sources all the preference files
+function source_installers {
+  declare -a files=("${!1}")
+  for file in "${files[@]}"; do
+    file="${2}${file}.sh"
+    [ -r "$file" ] && [ -f "$file" ] && source "$file"
+  done;
+}
+
+source_installers INSTALLERS[@] "installers/"
