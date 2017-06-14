@@ -151,6 +151,7 @@ set_prefs dropbox "Dropbox"
 set_prefs google_chrome "Google Chrome"
 set_prefs qlcolorcode "Quick Look"
 set_prefs transmission "Transmission"
+set_prefs vscode
 
 # Run
 get_open_affected_apps

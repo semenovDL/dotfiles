@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-VSCODE_DF=$DOTFILES/installers/vscode
+VSCODE_DF=~/.dotfiles/apps/vscode
 # Install extensions
 cat $VSCODE_DF/extensions.yml |
   rq -y 'at "recommended"|spread' |

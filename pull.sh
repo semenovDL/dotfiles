@@ -14,3 +14,6 @@ echo "Update dotfiles"
 
 echo "Run installer"
 source $DOTFILES/install.sh
+
+echo "Setup system preferences and apps"
+source $DOTFILES/setup.sh

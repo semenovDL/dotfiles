@@ -10,4 +10,4 @@ fi
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Link to local zshrc
-ln -sf $DOTFILES/installers/zsh/zshrc.sh ~/.zshrc
+ln -sf ~/.dotfiles/install/zsh/zshrc.sh ~/.zshrc

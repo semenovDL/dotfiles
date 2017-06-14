@@ -18,6 +18,6 @@ brew upgrade
 
 # Cleanup
 echo "> brew bundle cleanup"
-brew bundle cleanup --force --file=$DOTFILES/installers/homebrew/brewfile.rb
+brew bundle cleanup --force --file=~/.dotfiles/install/homebrew/brewfile.rb
 echo "> brew cleanup"
 brew cleanup

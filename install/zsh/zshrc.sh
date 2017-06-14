@@ -1,6 +1,6 @@
 export DOTFILES=$HOME/.dotfiles
 export ZSH=$HOME/.oh-my-zsh
-export ZSH_CUSTOM=$DOTFILES/installers/zsh/custom
+export ZSH_CUSTOM=$DOTFILES/install/zsh/custom
 
 ZSH_THEME="semenovdl"
 
@@ -24,6 +24,7 @@ alias oss=$HOME/p/oss
 alias gb=$HOME/p/gb/geekbrains
 
 alias gs='git status'
+alias gcm='git c'
 
 alias d='docker'
 alias di='docker images'

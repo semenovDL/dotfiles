@@ -20,4 +20,4 @@ brew update
 
 # Run Homebrew through the Brewfile
 echo "› brew bundle"
-brew bundle --file=$DOTFILES/installers/homebrew/brewfile.rb
+brew bundle --file=~/.dotfiles/install/homebrew/brewfile.rb
