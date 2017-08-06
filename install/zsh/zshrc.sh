@@ -13,6 +13,14 @@ source $ZSH/oh-my-zsh.sh
 export LC_ALL=ru_RU.UTF-8
 export LANG=ru_RU.UTF-8
 
+# Path reloading
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+base_path="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+rbenv_path="/usr/local/opt/rbenv/shims:/usr/local/opt/rbenv/bin"
+coreutils_path="/usr/local/opt/coreutils/libexec/gnubin"
+PATH="${JAVA_HOME}/bin:${coreutils_path}:${rbenv_path}:${base_path}"
+export PATH
+
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 # ssh-add
@@ -21,7 +29,8 @@ export LANG=ru_RU.UTF-8
 alias gh=$HOME/p/gh
 alias sb=$HOME/p/sb
 alias oss=$HOME/p/oss
-alias gb=$HOME/p/gb/geekbrains
+alias gb=$HOME/p/w/gb
+alias icloud="$HOME/Library/Mobile\ Documents/com\~apple\~CloudDocs"
 
 alias gs='git status'
 alias gcm='git c'
