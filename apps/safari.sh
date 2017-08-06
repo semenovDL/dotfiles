@@ -150,6 +150,7 @@ safari_browsers="/Applications/Safari.app"
 safari_extensions=(
   "http://download.livereload.com/2.1.0/LiveReload-2.1.0.safariextz"
   "http://sobolev.us/download/stylish/stylish.safariextz"
+  "https://cache.agilebits.com/dist/1P/ext/1Password-4.6.6.safariextz"
 )
 
 # Download Extensions
