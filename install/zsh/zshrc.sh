@@ -4,7 +4,7 @@ export ZSH_CUSTOM=$DOTFILES/install/zsh/custom
 
 ZSH_THEME="semenovdl"
 
-plugins=(git redis-cli gem rbenv bundler rails docker zsh-syntax-highlighting)
+plugins=(git redis-cli gem rbenv bundler rails docker yarn zsh-syntax-highlighting)
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor root line)
 
 source $ZSH/oh-my-zsh.sh
@@ -41,12 +41,12 @@ alias drm='docker ps -a -q | xargs docker rm'
 alias drmi='docker images -q --filter "dangling=true" | xargs docker rmi'
 alias drmv='docker volume rm $(docker volume ls -qf dangling=true)'
 
-# alias rails='bundle exec rails'
-# alias rake='bundle exec rake'
-# alias rspec='bundle exec rspec'
-# alias foreman='bundle exec foreman'
+alias rails='bundle exec rails'
+alias rake='bundle exec rake'
+alias rspec='bundle exec rspec'
+alias foreman='bundle exec foreman'
 # alias cap='bundle exec cap'
-# alias mina='bundle exec mina'
+alias mina='bundle exec mina'
 
 # Alias to script
 alias _rsync='rsync -azh --delete --info=progress2 --exclude '.git' --exclude '.gitignore''
