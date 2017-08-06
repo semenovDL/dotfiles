@@ -13,7 +13,8 @@ install=(
   xcode # XCode __must__ be installed before Homebrew
   homebrew # Homebrew __must__ be installed before other tools
   ruby
-  haskell
+  haskell # Haskell __must__ be installed before Idris
+  idris
   git
   zsh
 )

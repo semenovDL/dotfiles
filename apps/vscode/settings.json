@@ -1791,6 +1791,26 @@
   // "path-intellisense.absolutePathToWorkspace": true,
 
 
+  // Settings for Idris project
+  // The full path to the idris executable.
+  // "idris.executablePath": "idris",
+
+  // Show warning when a function is partial.
+  // "idris.warnPartial": false,
+
+  // Controls the hover behavior. 'info' will display Idris documentation, 'type' will display Idris type, 'fallback' will try 'info' first and fallback to 'type' if we can not get the documentation, and 'none' will disable hover tooltips.
+  // "idris.hoverMode": "fallback",
+
+  // Controls the auto-completion behavior. 'allWords' will always include all words from the currently opened documentation, 'replCompletion' will get suggestions from Idris REPL process.
+  // "idris.suggestMode": "allWords",
+
+  // Show output channel when typechecking finished.
+  // "idris.showOutputWhenTypechecking": false,
+
+  // Kill Idris process every N times of continuous typechecking to avoid memory leaking.
+  // "idris.numbersOfContinuousTypechecking": 10,
+
+
   // Docker configuration options
   // Default registry to push to, empty string will push to Dockerhub.
   // "docker.defaultRegistry": "",

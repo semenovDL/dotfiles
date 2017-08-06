@@ -52,6 +52,7 @@ brew 'yarn'
 brew 'ruby-build'
 brew 'rbenv'
 brew 'haskell-stack'
+brew 'idris'
 
 # Mac OS X tools
 brew 'tccutil' # Required for setting preferences
