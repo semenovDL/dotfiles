@@ -9,6 +9,7 @@ nodes:
       - gh: webpro/awesome-dotfiles
       - gh: h4cc/awesome-elixir
       - gh: avelino/awesome-go
+      - gh: krispo/awesome-haskell
       - gh: MaximAbramchuck/awesome-interview-questions
       - gh: josephmisiti/awesome-machine-learning
       - gh: ekremkaraca/awesome-rails
@@ -21,6 +22,7 @@ nodes:
       - gh: kennethwang14/TypographyHandbook
       - gh: getify/You-Dont-Know-JS
       - gh: denisshevchenko/ohaskell.guide
+      - gh: anton-k/ru-haskell-book
   - path: e/k # Koans
     update: false
     organization: semenovDL
@@ -48,6 +50,8 @@ nodes:
     update: true
   - path: l/elm
     repos:
+      - gh: elm-lang/elm-compiler
+      - gh: avh4/elm-format
       - gh: debois/elm-mdl
       - gh: ohanhi/elm-native-ui
       - gh: mdgriffith/elm-style-animation
@@ -72,9 +76,15 @@ nodes:
       - gh: slime-lang/phoenix_slime
       - gh: slime-lang/slime
   - path: l/hs
+  - path: l/hs/web_frameworks
     repos:
-      - gh: elm-lang/elm-compiler
-      - gh: avh4/elm-format
+      - gh: scotty-web/scotty
+      - gh: haskell-servant/servant
+      - gh: agrafix/Spock
+      - gh: yesodweb/yesod
+  - path: l/idr
+    repos:
+      - gh: idris-lang/Idris-dev
   - path: l/rb
   - path: l/rb/admin
     repos:
@@ -89,6 +99,20 @@ nodes:
       - gh: ruby-grape/grape-swagger
       - gh: trailblazer/roar
       - gh: trailblazer/roar-jsonapi
+      - gh: rails-api/active_model_serializers
+      - gh: jsonapi-rb/jsonapi-deserializable
+      - gh: jsonapi-rb/jsonapi-hanami
+      - gh: jsonapi-rb/jsonapi-parser
+      - gh: jsonapi-rb/jsonapi-rails
+      - gh: jsonapi-rb/jsonapi-renderer
+      - gh: jsonapi-rb/jsonapi-rb.github.io
+      - gh: jsonapi-rb/jsonapi-rb
+      - gh: jsonapi-rb/jsonapi-serializable
+      - gh: tiagopog/jsonapi-utils
+      - gh: cerebris/jsonapi-resources
+      - gh: fotinakis/jsonapi-serializers
+      - gh: plexus/yaks
+      - gh: RestPack/restpack_serializer
   - path: l/rb/attachments
     repos:
       - gh: carrierwaveuploader/carrierwave
@@ -178,6 +202,7 @@ nodes:
   - path: l/rb/dry-rb
     organization: dry-rb
     repos:
+      - gh: icelab/berg
       - gh: dry-auto_inject
       - gh: dry-configurable
       - gh: dry-container
@@ -234,6 +259,7 @@ nodes:
     repos:
       - gh: assets
       - gh: controller
+      - gh: ossboard-org/ossboard
       - gh: hanami
       - gh: hanami.github.io
       - gh: helpers
@@ -382,6 +408,7 @@ nodes:
     organization: semenovDL
     repos:
       - gh: dotfiles
+      - gh: dry-transaction
       - gh: gandy_dancer
       - gh: mal
       - gh: semenovDL.github.io
