@@ -32,3 +32,7 @@ defaults write com.surteesstudios.Bartender statusBarImageNamed -string "More"
 
 # Add login item
 loginitem add "Bartender 2"
+
+defaults write com.surteesstudios.Bartender.plist appBartenderOrder -array "info.eurocomp.TimingHelper" "com.adobe.acc.AdobeCreativeCloud"
+defaults write com.surteesstudios.Bartender.plist appSettings -dict \\
+  com.adobe.acc.AdobeCreativeCloud '{ controlled = 1; popupFix = 0; showForUpdates = 0; updateDisplayTime = 5; }'
