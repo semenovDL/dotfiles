@@ -17,6 +17,7 @@ brew 'zsh-completions'
 brew 'zsh-syntax-highlighting'
 
 # GNU core utilities (those that come with masOS are outdated)
+# Don't forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
 brew 'coreutils'
 
 # More usefull tools:
@@ -45,6 +46,8 @@ cask 'rq'
 # Databases
 brew 'postgresql', restart_service: true
 brew 'redis', restart_service: true
+# DB tools
+cask 'postico'
 
 # Languages support
 brew 'node'
@@ -52,7 +55,17 @@ brew 'yarn'
 brew 'ruby-build'
 brew 'rbenv'
 brew 'haskell-stack'
+brew 'elixir'
+brew 'elm'
 brew 'idris'
+cask 'java'
+
+# Dev tools
+brew 'swagger-codegen'
+brew 'phantomjs'
+brew 'webpack'
+
+brew 'nginx'
 
 # Mac OS X tools
 brew 'tccutil' # Required for setting preferences
@@ -84,16 +97,19 @@ cask 'font-firacode-nerd-font'
 cask 'adobe-creative-cloud'
 cask 'aerial'
 cask 'alfred'
+cask 'arq'
 cask 'bartender'
 cask 'caffeine'
 cask 'dash'
 cask 'docker'
 cask 'dropbox'
 cask 'franz'
+cask 'flux'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'little-snitch'
 cask 'postman'
+cask 'sourcetree'
 cask 'transmission'
 cask 'tunnelbear'
 cask 'visual-studio-code'
@@ -102,7 +118,8 @@ cask 'vlc'
 # Mac App Store apps
 brew 'mas'
 mas '1Password', id: 443987910
-mas 'Be Focused Pro', id: 961632517
+# mas 'Be Focused Pro', id: 961632517
 mas 'Clean', id: 418412301
 mas 'Entropy', id: 437151949
-mas 'Timing', id: 431511738
+# mas 'Timing', id: 431511738 # Download from http://timingapp.com
+mas 'Xcode', id: 497799835
