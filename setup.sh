@@ -15,7 +15,7 @@ PREF_FILES=()
 AFFECTED_APPS=()
 
 # Source lib tools
-source 'lib/loginitem.sh'
+source $DOTFILES/lib/loginitem.sh
 
 # Add preference file followed by any number of affected applications
 function set_prefs {
